@@ -1,6 +1,14 @@
 body {
-    max-width: 1200px;
+    max-width: 100%;
     background-color: #FEFBEA;
+}
+.logo {
+    padding-bottom: 2%;
+}
+.궁서 {
+    font-family: "궁서";
+    color: #FF7E00;
+    font-size: 50px;
 }
 
 /* nav */
@@ -17,25 +25,29 @@ header {
     top: 0;
 }
 nav {
-    height: 160px;
+    height: 190px;
     display: flex;      /* 기본값: 수평 방향 */
     justify-content: space-between;     /* 양쪽 정렬 */
     align-items: center;    /* 교차축(수직의) 가운데 */
 }
 a {
     text-decoration-line: none;
-    color: inherit;
+    color: #EB701D;
 }
 ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    font-size: 18px;
-    color: #EB701D;
-    padding-top: 45%;
+    font-size: 17px;
+    padding-top: 50%;
+}
+.nav-menu {
+    max-width: 30%;
+    position: absolute;
+    padding-right: 2.5%;
 }
 .nav-list {
     display: flex; /* 기본값: 수평 방향 */
-    column-gap: 1.25rem; /* 20px */
+    column-gap: 3rem; /* 20px */
 }
