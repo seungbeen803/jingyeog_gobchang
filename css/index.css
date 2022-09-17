@@ -33,7 +33,7 @@ ul {
     flex-direction: row;
     font-size: 18px;
     color: #EB701D;
-    padding-top: 30%;
+    padding-top: 45%;
 }
 .nav-list {
     display: flex; /* 기본값: 수평 방향 */
