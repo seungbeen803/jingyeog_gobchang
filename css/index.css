@@ -1,0 +1,41 @@
+body {
+    max-width: 1200px;
+    background-color: #FEFBEA;
+}
+
+/* nav */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+nav {
+    height: 160px;
+    display: flex;      /* 기본값: 수평 방향 */
+    justify-content: space-between;     /* 양쪽 정렬 */
+    align-items: center;    /* 교차축(수직의) 가운데 */
+}
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 18px;
+    color: #EB701D;
+    padding-top: 30%;
+}
+.nav-list {
+    display: flex; /* 기본값: 수평 방향 */
+    column-gap: 1.25rem; /* 20px */
+}
