@@ -4,7 +4,6 @@ body {
     -ms-overflow-style: none;
 }
 header {
-    position: fixed;
     background-color: black;
     left: 0;
     right: 0;
@@ -22,6 +21,38 @@ header {
     font-size: 50px;
 }
 
+.mySlides {
+    display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+  position: relative;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration:3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1.2}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1.2}
+}
 
 /* nav */
 .nav-container {
@@ -63,12 +94,4 @@ ul {
     justify-content: center;
     align-items: center;
     padding-top: 100%;
-}
-
-@media screen and (max-width: 600px) {
-    body {
-        max-width: 100%;
-        background-color: #FEFBEA;
-        -ms-overflow-style: none;
-    }
 }
