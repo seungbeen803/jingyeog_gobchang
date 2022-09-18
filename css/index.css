@@ -5,6 +5,7 @@ body {
 }
 header {
     background-color: black;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
@@ -28,11 +29,11 @@ header {
 /* Slideshow container */
 .slideshow-container {
     max-width: 100%;
-  position: relative;
-  margin: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    margin: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -93,5 +94,5 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100%;
+    padding-top: 80%;
 }
