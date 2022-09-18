@@ -55,7 +55,11 @@ ul {
     display: flex; /* 기본값: 수평 방향 */
     column-gap: 3rem; /* 20px */
 }
-p {
+.map {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 100%;
 }
 
