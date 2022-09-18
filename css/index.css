@@ -3,6 +3,13 @@ body {
     background-color: #FEFBEA;
     -ms-overflow-style: none;
 }
+header {
+    position: fixed;
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -15,18 +22,12 @@ body {
     font-size: 50px;
 }
 
+
 /* nav */
 .nav-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-header {
-    background-color: black;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
 }
 nav {
     height: 190px;
@@ -55,6 +56,7 @@ ul {
     display: flex; /* 기본값: 수평 방향 */
     column-gap: 3rem; /* 20px */
 }
+
 .map {
     max-width: 100%;
     display: flex;
