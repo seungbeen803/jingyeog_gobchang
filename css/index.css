@@ -1,6 +1,10 @@
 body {
     max-width: 100%;
     background-color: #FEFBEA;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 .logo {
     padding-bottom: 2%;
@@ -50,4 +54,15 @@ ul {
 .nav-list {
     display: flex; /* 기본값: 수평 방향 */
     column-gap: 3rem; /* 20px */
+}
+p {
+    padding-top: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+        background-color: #FEFBEA;
+        -ms-overflow-style: none;
+    }
 }
