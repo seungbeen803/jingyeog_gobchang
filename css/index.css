@@ -9,6 +9,7 @@ header {
     left: 0;
     right: 0;
     top: 0;
+    z-index: 100;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -22,6 +23,13 @@ header {
     font-size: 50px;
 }
 
+#demo {
+    margin: 0 auto;
+    margin-top: 20rem;
+}
+.carousel-item {
+    max-width: 100%;
+}
 .mySlides {
     display: none;
 }
@@ -34,6 +42,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -1;
 }
 
 
@@ -67,7 +76,7 @@ nav {
     justify-content: space-between;     /* 양쪽 정렬 */
     align-items: center;    /* 교차축(수직의) 가운데 */
 }
-a {
+.nav-link {
     text-decoration-line: none;
     color: #EB701D;
 }
@@ -94,5 +103,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 80%;
+    margin-top: 1.25rem;
 }
+
