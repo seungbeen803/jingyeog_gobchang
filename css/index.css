@@ -28,40 +28,11 @@ header {
     margin-top: 20rem;
 }
 .carousel-item {
-    max-width: 100%;
+    width: 100%;
 }
-.mySlides {
-    display: none;
-}
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 100%;
-    position: relative;
-    margin: 27%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-}
-
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration:3s;
-  animation-name: fade;
-  animation-duration: 3s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1.2}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1.2}
+.carousel-inner {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* nav */
@@ -97,7 +68,11 @@ ul {
     display: flex; /* 기본값: 수평 방향 */
     column-gap: 3rem; /* 20px */
 }
-
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .map {
     max-width: 100%;
     display: flex;
