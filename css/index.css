@@ -73,13 +73,13 @@ ul {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    
+    text-underline-position: under;
 }
-h4 {
+h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12%;
+    margin-top: 15%;
 }
 .map {
     max-width: 100%;
