@@ -25,7 +25,7 @@ header {
 
 #demo {
     margin: 0 auto;
-    margin-top: 20rem;
+    margin-top: 17rem;
 }
 .carousel-item {
     width: 100%;
@@ -68,16 +68,24 @@ ul {
     display: flex; /* 기본값: 수평 방향 */
     column-gap: 3rem; /* 20px */
 }
-p {
+.road {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20%;
+    font-weight: bolder;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
 }
 .map {
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1.25rem;
+    margin-top: 18%;
 }
 
