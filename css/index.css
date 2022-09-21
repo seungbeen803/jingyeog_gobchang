@@ -80,6 +80,7 @@ h5 {
     justify-content: center;
     align-items: center;
     margin-top: 15%;
+    font-weight: bold;
 }
 .map {
     max-width: 100%;
