@@ -68,18 +68,18 @@ ul {
     display: flex; /* 기본값: 수평 방향 */
     column-gap: 3rem; /* 20px */
 }
-.road {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    font-weight: bolder;
-}
 .line {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bolder;
+    font-weight: bold;
+    
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
 }
 .map {
     max-width: 100%;
