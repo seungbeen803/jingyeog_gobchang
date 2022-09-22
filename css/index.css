@@ -1,7 +1,6 @@
 body {
     max-width: 100%;
-    background-color: #FEFBEA;
-    -ms-overflow-style: none;
+    background-color: #FEFBEA;    
 }
 header {
     background-color: black;
@@ -57,10 +56,10 @@ ul {
     flex-wrap: wrap;
     flex-direction: row;
     font-size: 17px;
-    padding-top: 50%;
+    margin-top: 50%;
 }
 .nav-menu {
-    max-width: 30%;
+    max-width: 100%;
     position: absolute;
     padding-right: 2.5%;
 }
