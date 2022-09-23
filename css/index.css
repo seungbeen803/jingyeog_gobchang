@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #FEFBEA;
     position: fixed;
     left: 0;
     right: 0;
@@ -12,6 +12,23 @@ header {
     z-index: 100;
 }
 
+/* nav */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    align-items: center;
+    height: 75px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #b29f35;
+}
+
+/* nav end */
+
+/* 내용 */
 ::-webkit-scrollbar {
     display: none;
 }
@@ -28,7 +45,7 @@ header {
 
 #demo {
     margin: 0 auto;
-    margin-top: 160px;
+    margin-top: 50px;
 }
 
 .carousel-item {
@@ -36,53 +53,18 @@ header {
 }
 
 .carousel-inner {
-    max-width: 1000px;
+    opacity: 0.5;
+    max-width: 100%;
+    height: 700px;
     margin: 0 auto;
 }
 
-/* nav */
-.nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.d-block {
+    max-height: 100%;
 }
 
-nav {
-    height: 160px;
-    display: flex;
-    /* 기본값: 수평 방향 */
-    justify-content: space-between;
-    /* 양쪽 정렬 */
-    align-items: center;
-    /* 교차축(수직의) 가운데 */
-}
 
-.nav-link {
-    text-decoration-line: none;
-    color: #EB701D;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    font-size: 17px;
-    margin-top: 50%;
-}
-
-.nav-menu {
-    max-width: 100%;
-    position: absolute;
-    padding-right: 2.5%;
-}
-
-.nav-list {
-    display: flex;
-    /* 기본값: 수평 방향 */
-    column-gap: 3rem;
-    /* 20px */
-}
+/* 하위내용 */
 
 .line {
     display: flex;
@@ -106,9 +88,51 @@ h5 {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .middle {
     max-width: 100%;
-    
+}
+
+/* footer */
+footer {
+    position: relative;
+    height: 50px;
+    border-top: 1px solid #c4c4c4;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', 'Arial', sans-serif;
+}
+
+.foot-wrap {
+    position: relative;
+    font-family: 'Noto Sans KR', 'Arial', sans-serif;
+    font-weight: 400;
+    height: 91px;
+    padding-bottom: 20px;
+}
+
+.foot-wrap footer {
+    width: 1122px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.foot-wrap footer span {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding-right: 13px;
+    margin-right: 13px;
+    font-weight: 200;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.foot-wrap .address strong {
+    font-weight: 300;
+}
+
+.foot-wrap .address .copy {
+    font-weight: 200;
 }
