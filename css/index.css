@@ -1,7 +1,8 @@
 body {
     max-width: 100%;
-    background-color: #FEFBEA;    
+    background-color: #FEFBEA;
 }
+
 header {
     background-color: black;
     position: fixed;
@@ -10,12 +11,15 @@ header {
     top: 0;
     z-index: 100;
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
+
 .logo {
     padding-bottom: 2%;
 }
+
 .궁서 {
     font-family: "궁서";
     color: #FF7E00;
@@ -24,11 +28,13 @@ header {
 
 #demo {
     margin: 0 auto;
-    margin-top: 11rem;
+    margin-top: 160px;
 }
+
 .carousel-item {
     width: 100%;
 }
+
 .carousel-inner {
     max-width: 1000px;
     margin: 0 auto;
@@ -40,16 +46,22 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 nav {
-    height: 190px;
-    display: flex;      /* 기본값: 수평 방향 */
-    justify-content: space-between;     /* 양쪽 정렬 */
-    align-items: center;    /* 교차축(수직의) 가운데 */
+    height: 160px;
+    display: flex;
+    /* 기본값: 수평 방향 */
+    justify-content: space-between;
+    /* 양쪽 정렬 */
+    align-items: center;
+    /* 교차축(수직의) 가운데 */
 }
+
 .nav-link {
     text-decoration-line: none;
     color: #EB701D;
 }
+
 ul {
     list-style: none;
     display: flex;
@@ -58,15 +70,20 @@ ul {
     font-size: 17px;
     margin-top: 50%;
 }
+
 .nav-menu {
     max-width: 100%;
     position: absolute;
     padding-right: 2.5%;
 }
+
 .nav-list {
-    display: flex; /* 기본값: 수평 방향 */
-    column-gap: 3rem; /* 20px */
+    display: flex;
+    /* 기본값: 수평 방향 */
+    column-gap: 3rem;
+    /* 20px */
 }
+
 .line {
     display: flex;
     justify-content: center;
@@ -74,6 +91,7 @@ ul {
     font-weight: bold;
     text-underline-position: under;
 }
+
 h5 {
     display: flex;
     justify-content: center;
@@ -81,6 +99,7 @@ h5 {
     margin-top: 15%;
     font-weight: bold;
 }
+
 .map {
     max-width: 100%;
     display: flex;
@@ -88,4 +107,3 @@ h5 {
     align-items: center;
     margin-top: 80px;
 }
-
