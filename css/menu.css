@@ -19,6 +19,7 @@ body {
 }
 
 #title-Menu {
+    background-color: #fdf4c7;
     margin-top: 65px;
     margin-bottom: 55px;
     font-size: 80px;
@@ -127,6 +128,8 @@ header {
 .nav a {
     text-decoration: none;
     color: #b29f35;
+    font-size: 20px;
+
 }
 
 
