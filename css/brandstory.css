@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #wrapper {
     /* 홈페이지 중앙 정렬 */
     width: 1000px;
@@ -16,7 +21,7 @@ body {
 }
 
 .content {
-    padding-top: 10%;
+    padding-top: 80px;
     justify-content: center;
     gap: 8rem;
     display: flex;
@@ -38,8 +43,15 @@ img {
     border-radius: 1.6rem;
     vertical-align: top;
     float: right;
-    object-fit: cover; 
+    object-fit: cover;
     object-position: 50% 50%;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 10px
 }
 
 /* .text {
@@ -60,7 +72,7 @@ img {
     color: #000;
     text-transform: uppercase;
     font-weight: normal;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 p.bold-title {
@@ -70,9 +82,8 @@ p.bold-title {
     line-height: 75%;
 }
 
-.manager-name{
-    text-align: center;
-    margin-top: 20%;
+.manager-name {
+    text-align: right;
     font-size: 19px;
     font-weight: bold;
 }
@@ -94,43 +105,59 @@ p.bold-title {
     min-height: 100vh;
 }
 
-.story1 {
-    border-radius: 1.6rem;
-    width: 60%;
-    background-color: #ffaf7a;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    /* border-top: 1px solid rgba(0, 0, 0, 0.3); */
-}
 
-.story2 {
-    width: 60%;
-    border-radius: 1.6rem;
-    height: 130px;
-    background-color: #ffaf7a;
+.story-right {
+    float: right;
+    width: 45%;
+    background-color: #fdf4c7;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding: 25px;
+    padding-left: 40px;
+    padding-right: 70px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
 }
 
-.story3 {
-    border-radius: 1.6rem;
-    width: 60%;
-    height: 140px;
-    background-color: #ffaf7a;
+.story-left {
+    float: right;
+    width: 45%;
+    background-color: #fdc29a;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding: 25px;
+    padding-right: 40px;
+    padding-left: 70px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.story4 {
-    border-radius: 1.6rem;
-    width: 60%;
-    height: 220px;
-    background-color: #ffaf7a;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-bottom: 1%;
-    padding-bottom: 4%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.story-container-right {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.story-container-left {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.answer-title {
+    font-weight: 600;
+}
+
+.question {
+    margin-bottom: 14px;
+    font-size: 17px;
 }
 
 ::-webkit-scrollbar {
