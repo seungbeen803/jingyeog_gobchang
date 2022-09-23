@@ -1,4 +1,214 @@
+#wrapper { /* 홈페이지 중앙 정렬 */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+html {
+    width: 100%;
+}
+
 body {
     max-width: 100%;
     background: #FEFBEA;
+    margin: 0 auto;
+    -ms-overflow-style: none;
+}
+
+.content {
+    padding-top: 10%;
+    justify-content: center;
+    gap: 3rem;
+    display: flex;
+}
+
+img { /* 사장님 이미지 */
+    width: 300px;
+    height: 420px;
+    border-radius: 1.6rem;
+    vertical-align: top;
+    float: right;
+}
+
+.text {
+    margin-top: 3%;
+}
+
+.title-text {
+    width: 300px;
+    height: 25px;
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.section-title { /*스토리가 궁금하다면?*/
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 30px 0;    
+}
+
+.manager-name {
+    margin-top: 45%;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.motto {
+    margin-top: 8%;
+    width: 400px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    color: #5b5b5b;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.story1 {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 4% 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.story2 {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.story3 {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.story4 {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* nav */
+
+#menu {
+    position: fixed;
+    top: 0;
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #000000;
+}
+
+ul {
+    display: flex;
+    gap: 43px;
+    width: 100%;
+    height: 40px;
+    margin: 0%;
+    margin: 0 30%;
+    list-style: none;
+}
+
+li {
+    padding-left: 4%;
+}
+
+ul li {
+    float: left;
+}
+
+#menu ul li a { 
+    display: block;
+}
+
+a {
+    text-decoration-line: none;
+    color: #EB701D;
+}
+
+.title-text {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* tablet */
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    body {
+        max-width: 100%;
+        background-color: #FEFBEA;
+        -ms-overflow-style: none;
+    }
+
+    .nav-list {
+        display: flex; /* 기본값: 수평 방향 */
+        column-gap: 3rem; /* 20px */
+    }
+
+    img {
+        width: 250px;
+        height: 370px;
+        border-radius: 1.6rem;
+        vertical-align: top;
+        float: right;
+    }
+}
+
+/* footer */
+footer {
+  position: relative;
+  height: 50px;
+  border-top: 1px solid #c4c4c4;
+  color: #000000;
+  margin: 0 auto;
+  font-family: 'Noto Sans KR','Arial',sans-serif;
+}
+
+.foot-wrap {
+  position: relative;
+  font-family: 'Noto Sans KR','Arial',sans-serif;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.foot-wrap footer {
+  width: 1122px;
+  margin:0 auto;
+  padding: 10px;
+  font-size:14px;
+}
+
+.foot-wrap footer span {
+  display:inline-block;
+  border-right:1px solid #fff;
+  padding-right:13px;
+  margin-right:13px;
+  font-weight:200;
+  line-height:1;
+  margin-bottom:10px;
+}
+
+.foot-wrap .address strong {
+  font-weight:300;
+}
+
+.foot-wrap .address .copy {
+  font-weight: 200;
 }
