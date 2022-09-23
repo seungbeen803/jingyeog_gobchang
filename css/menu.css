@@ -19,9 +19,10 @@ body {
 }
 
 #title-Menu {
-    margin-top: 75px;
-    margin-bottom: 67px;
-    font-size: 50px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    font-size: 80px;
+    color: #7b421b;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -115,6 +116,7 @@ body {
     line-height: 50px;
     text-align: center;
     background-color: #000000;
+    z-index: 100;
 }
 
 ul {
