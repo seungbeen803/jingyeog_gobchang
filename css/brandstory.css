@@ -16,7 +16,7 @@ body {
 }
 
 .content {
-    padding-top: 10%;
+    padding-top: 100px;
     justify-content: center;
     gap: 3rem;
     display: flex;
