@@ -1,4 +1,5 @@
-#wrapper { /* 홈페이지 중앙 정렬 */
+#wrapper {
+    /* 홈페이지 중앙 정렬 */
     width: 1000px;
     margin: 0 auto;
 }
@@ -15,13 +16,14 @@ body {
 }
 
 .content {
-    padding-top: 10%;
+    padding-top: 100px;
     justify-content: center;
     gap: 3rem;
     display: flex;
 }
 
-img { /* 사장님 이미지 */
+img {
+    /* 사장님 이미지 */
     width: 300px;
     height: 420px;
     border-radius: 1.6rem;
@@ -41,12 +43,13 @@ img { /* 사장님 이미지 */
     margin-bottom: 50px;
 }
 
-.section-title { /*스토리가 궁금하다면?*/
+.section-title {
+    /*스토리가 궁금하다면?*/
     text-align: center;
     color: #000;
     text-transform: uppercase;
     font-weight: normal;
-    padding: 30px 0;    
+    padding: 30px 0;
 }
 
 .manager-name {
@@ -110,32 +113,28 @@ img { /* 사장님 이미지 */
 #menu {
     position: fixed;
     top: 0;
-    width:100%;
-    height:50px;
+    width: 100%;
+    height: 50px;
     line-height: 50px;
-    text-align: center;
     background-color: #000000;
 }
 
 ul {
     display: flex;
-    gap: 43px;
+    gap: 67px;
     width: 100%;
     height: 40px;
-    margin: 0%;
-    margin: 0 30%;
+    justify-content: center;
     list-style: none;
-}
-
-li {
-    padding-left: 4%;
+    margin: 0;
+    padding: 0;
 }
 
 ul li {
     float: left;
 }
 
-#menu ul li a { 
+#menu ul li a {
     display: block;
 }
 
@@ -158,8 +157,10 @@ a {
     }
 
     .nav-list {
-        display: flex; /* 기본값: 수평 방향 */
-        column-gap: 3rem; /* 20px */
+        display: flex;
+        /* 기본값: 수평 방향 */
+        column-gap: 3rem;
+        /* 20px */
     }
 
     img {
@@ -173,42 +174,42 @@ a {
 
 /* footer */
 footer {
-  position: relative;
-  height: 50px;
-  border-top: 1px solid #c4c4c4;
-  color: #000000;
-  margin: 0 auto;
-  font-family: 'Noto Sans KR','Arial',sans-serif;
+    position: relative;
+    height: 50px;
+    border-top: 1px solid #c4c4c4;
+    color: #000000;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', 'Arial', sans-serif;
 }
 
 .foot-wrap {
-  position: relative;
-  font-family: 'Noto Sans KR','Arial',sans-serif;
-  font-weight: 400;
-  padding-bottom: 20px;
+    position: relative;
+    font-family: 'Noto Sans KR', 'Arial', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
 }
 
 .foot-wrap footer {
-  width: 1122px;
-  margin:0 auto;
-  padding: 10px;
-  font-size:14px;
+    width: 1122px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .foot-wrap footer span {
-  display:inline-block;
-  border-right:1px solid #fff;
-  padding-right:13px;
-  margin-right:13px;
-  font-weight:200;
-  line-height:1;
-  margin-bottom:10px;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding-right: 13px;
+    margin-right: 13px;
+    font-weight: 200;
+    line-height: 1;
+    margin-bottom: 10px;
 }
 
 .foot-wrap .address strong {
-  font-weight:300;
+    font-weight: 300;
 }
 
 .foot-wrap .address .copy {
-  font-weight: 200;
+    font-weight: 200;
 }
