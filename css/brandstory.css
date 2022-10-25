@@ -74,13 +74,13 @@ img {
 }
 
 p.bold-title {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 800;
     line-height: 75%;
 }
 
 .info {
-    font-size: 35px;
+    font-size: 31px;
 }
 
 .manager-name {
@@ -211,6 +211,7 @@ footer {
     position: relative;
     height: 50px;
     border-top: 1px solid #c4c4c4;
+    color: #000000;
     margin: 0 auto;
     font-family: 'Noto Sans KR', 'Arial', sans-serif;
 }
@@ -223,7 +224,6 @@ footer {
 }
 
 .foot-wrap footer {
-    width: 1122px;
     margin: 0 auto;
     padding: 10px;
     font-size: 14px;
@@ -245,4 +245,78 @@ footer {
 
 .foot-wrap .address .copy {
     font-weight: 200;
+}
+
+@media (max-width:480px) {
+    p.bold-title {
+        padding-top: 45px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 75%;
+    }
+
+    .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        gap: 10px;
+        width: 230px;
+        background-color: #fdf4c7;
+    }
+
+    img {
+        /* 사장님 이미지 */
+        width: 190px;
+        height: 340px;
+        vertical-align: top;
+        float: right;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .manager-name {
+        text-align: right;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .question {
+        margin-bottom: 14px;
+        font-size: 13px;
+    }
+
+    .question-answer {
+        font-size: 14px;
+    }
+
+    .story-right {
+        float: right;
+        width: 48%;
+    }
+
+    .story-left {
+        float: right;
+        width: 50%;
+    }
+
+    .text {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        background-color: #fdc29a;
+        padding: 30px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
 }
