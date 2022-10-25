@@ -143,18 +143,6 @@ header {
 
 }
 
-
-/* tablet */
-@media screen and (min-width:768px) and (max-width: 1023px) {
-    body {
-        max-width: 100%;
-        background-color: #FEFBEA;
-        -ms-overflow-style: none;
-    }
-}
-
-
-
 /* footer */
 footer {
     position: relative;
@@ -206,6 +194,58 @@ strong {
     font-weight: bold;
 }
 
+/* tablet size */
+@media (max-width:780px) {
+
+    /* title */
+    #title-Menu {
+        font-size: 80px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    /* 메뉴 종류 */
+    .menu-type,
+    .hr {
+        font-size: 15px;
+    }
+
+    /* 메뉴 사진*/
+    .menu-img {
+        width: 25vw;
+        height: 20vw;
+        border-radius: 10vw;
+    }
+
+    /* 메뉴 글씨 */
+    .menu-p-container h3 {
+        font-size: 15px;
+    }
+
+    .menu-p-price {
+        font-size: 13px;
+    }
+
+    .menu-p-container {
+        column-gap: 50px;
+    }
+
+    .menu {
+        margin-bottom: 70px;
+    }
+
+    /* nav */
+    .nav {
+        gap: 25px;
+        height: 80px;
+    }
+
+    .nav a {
+        font-size: 20px;
+    }
+}
+
+/* phone size */
 @media (max-width:480px) {
 
     /* title */

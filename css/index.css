@@ -164,6 +164,9 @@ strong {
     font-weight: bold;
 }
 
+
+
+/* phone size */
 @media (max-width:480px) {
 
     h5,
