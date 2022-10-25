@@ -95,6 +95,11 @@ h5 {
     font-weight: bold;
 }
 
+#youtube {
+    text-align: center;
+    margin-top: 100px;
+}
+
 .map {
     max-width: 100%;
     display: flex;
@@ -171,12 +176,10 @@ strong {
         width: 100%;
     }
 
-    #youtube {
-        padding: 20px;
-    }
-
+    #youtube,
     .map {
         padding: 20px;
+        margin-top: 20px;
     }
 
     .overlayout {
@@ -204,7 +207,4 @@ strong {
     }
 
     /* hr */
-    hr {
-        width: 60px;
-    }
 }
