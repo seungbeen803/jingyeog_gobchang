@@ -247,6 +247,97 @@ footer {
     font-weight: 200;
 }
 
+@media (max-width:780px) {
+    p.bold-title {
+        padding-top: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 75%;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        gap: 10px;
+        width: 300px;
+        background-color: #fdf4c7;
+    }
+
+    img {
+        /* 사장님 이미지 */
+        width: 250px;
+        height: 380px;
+        vertical-align: top;
+        float: right;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+
+    .manager-name {
+        text-align: right;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .question {
+        margin-bottom: 14px;
+        font-size: 17px;
+    }
+
+    .question-answer {
+        font-size: 14px;
+    }
+
+    .story-right {
+        float: right;
+        width: 60%;
+    }
+
+    .story-left {
+        float: right;
+        width: 60%;
+        padding-left: 50px;
+    }
+
+    .text {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        background-color: #fdc29a;
+        padding: 30px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    /* nav */
+    .nav {
+        gap: 15px;
+        height: 50px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+
+    .carousel-inner {
+        height: 400px;
+    }
+
+    /* footer */
+    footer p {
+        font-size: 12px;
+    }
+}
+
 @media (max-width:480px) {
     p.bold-title {
         padding-top: 45px;
