@@ -164,7 +164,39 @@ strong {
     font-weight: bold;
 }
 
+/* tablet size */
+@media (max-width:780px) {
 
+    /* title */
+    .overlayout {
+        top: 25%;
+    }
+
+    h5,
+    .line {
+        font-size: 16px;
+    }
+
+    iframe {
+        width: 90vw;
+    }
+
+    #youtube,
+    .map {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* nav */
+    .nav {
+        gap: 25px;
+        height: 70px;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+}
 
 /* phone size */
 @media (max-width:480px) {
