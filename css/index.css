@@ -123,10 +123,14 @@ footer {
 }
 
 .foot-wrap footer {
-    width: 1122px;
-    margin: 0 auto;
-    padding: 10px;
+    width: 100%;
     font-size: 14px;
+}
+
+footer .inner-footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15%;
 }
 
 .foot-wrap footer span {
@@ -145,4 +149,9 @@ footer {
 
 .foot-wrap .address .copy {
     font-weight: 200;
+}
+
+b,
+strong {
+    font-weight: bold;
 }
