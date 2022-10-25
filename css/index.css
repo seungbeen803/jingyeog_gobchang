@@ -155,3 +155,45 @@ b,
 strong {
     font-weight: bold;
 }
+
+@media (max-width:480px) {
+
+    h5,
+    .line {
+        font-size: 16px;
+    }
+
+    iframe,
+    .map {
+        width: 100%;
+    }
+
+    #youtube {
+        padding: 20px;
+    }
+
+    .map {
+        padding: 20px;
+    }
+
+    .overlayout {
+        top: 20%;
+
+    }
+
+    /* nav */
+    .nav {
+        gap: 15px;
+        height: 50px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+
+
+    /* footer */
+    footer p {
+        font-size: 12px;
+    }
+}
