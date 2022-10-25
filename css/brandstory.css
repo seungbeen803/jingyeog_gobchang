@@ -250,9 +250,13 @@ footer {
 @media (max-width:480px) {
     p.bold-title {
         padding-top: 45px;
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 800;
         line-height: 75%;
+    }
+    
+    .info {
+        font-size: 16px;
     }
 
     .img {
@@ -267,16 +271,13 @@ footer {
     img {
         /* 사장님 이미지 */
         width: 190px;
-        height: 340px;
+        height: 320px;
         vertical-align: top;
         float: right;
         object-fit: cover;
         object-position: 50% 50%;
     }
 
-    .info {
-        font-size: 16px;
-    }
 
     .manager-name {
         text-align: right;
@@ -295,12 +296,13 @@ footer {
 
     .story-right {
         float: right;
-        width: 48%;
+        width: 52%;
     }
 
     .story-left {
         float: right;
-        width: 50%;
+        width: 60%;
+        padding-left: 50px;
     }
 
     .text {
@@ -313,7 +315,7 @@ footer {
     }
 
     .section-title {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     footer p {
