@@ -81,7 +81,10 @@ header {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    text-underline-position: under;
+}
+
+hr {
+    width: 100px;
 }
 
 h5 {
@@ -198,5 +201,10 @@ strong {
     /* footer */
     footer p {
         font-size: 12px;
+    }
+
+    /* hr */
+    hr {
+        width: 60px;
     }
 }

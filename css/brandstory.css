@@ -254,7 +254,7 @@ footer {
         font-weight: bold;
         line-height: 75%;
     }
-    
+
     .info {
         font-size: 15px;
     }
@@ -318,10 +318,21 @@ footer {
         font-size: 20px;
     }
 
-    .nav a {
-        font-size: 15px;
+    /* nav */
+    .nav {
+        gap: 15px;
+        height: 50px;
     }
 
+    .nav a {
+        font-size: 16px;
+    }
+
+    .carousel-inner {
+        height: 400px;
+    }
+
+    /* footer */
     footer p {
         font-size: 12px;
     }

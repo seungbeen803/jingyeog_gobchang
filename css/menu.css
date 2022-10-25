@@ -63,9 +63,20 @@ body {
 }
 
 /* menu 내용 */
-.hr {
-    margin-bottom: 40px;
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
+
+hr {
+    width: 70px;
+}
+
 
 .menu-p-p {
     font-size: 14px;
@@ -141,6 +152,8 @@ header {
         -ms-overflow-style: none;
     }
 }
+
+
 
 /* footer */
 footer {
@@ -246,5 +259,10 @@ strong {
     /* footer */
     footer p {
         font-size: 10px;
+    }
+
+    /* hr */
+    hr {
+        width: 45px;
     }
 }
