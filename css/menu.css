@@ -160,7 +160,6 @@ footer {
 }
 
 .foot-wrap footer {
-    width: 1122px;
     margin: 0 auto;
     padding: 10px;
     font-size: 14px;
@@ -182,4 +181,59 @@ footer {
 
 .foot-wrap .address .copy {
     font-weight: 200;
+}
+
+@media (max-width:480px) {
+
+    /* title */
+    #title-Menu {
+        font-size: 50px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    /* 메뉴 종류 */
+    .menu-type,
+    .hr {
+        font-size: 12px;
+    }
+
+    /* 메뉴 사진*/
+    .menu-img {
+        width: 100px;
+        height: 80px;
+        border-radius: 30px;
+    }
+
+    /* 메뉴 글씨 */
+    .menu-p-container h3 {
+        font-size: 12px;
+    }
+
+    .menu-p-price {
+        font-size: 10px;
+    }
+
+    .menu-p-container {
+        column-gap: 30px;
+    }
+
+    .menu {
+        margin-bottom: 70px;
+    }
+
+    .nav {
+        gap: 15px;
+        height: 50px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+
+
+    /* footer */
+    footer p {
+        font-size: 10px;
+    }
 }
