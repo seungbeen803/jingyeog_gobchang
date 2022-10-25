@@ -177,7 +177,7 @@ strong {
     }
 
     .overlayout {
-        top: 20%;
+        top: 35%;
 
     }
 
@@ -191,6 +191,9 @@ strong {
         font-size: 16px;
     }
 
+    .carousel-inner {
+        height: 400px;
+    }
 
     /* footer */
     footer p {
