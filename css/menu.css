@@ -147,7 +147,6 @@ footer {
     position: relative;
     height: 50px;
     border-top: 1px solid #c4c4c4;
-    color: #000000;
     margin: 0 auto;
     font-family: 'Noto Sans KR', 'Arial', sans-serif;
 }
@@ -156,13 +155,19 @@ footer {
     position: relative;
     font-family: 'Noto Sans KR', 'Arial', sans-serif;
     font-weight: 400;
+    height: 91px;
     padding-bottom: 20px;
 }
 
 .foot-wrap footer {
-    margin: 0 auto;
-    padding: 10px;
+    width: 100%;
     font-size: 14px;
+}
+
+footer .inner-footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15%;
 }
 
 .foot-wrap footer span {
@@ -181,6 +186,11 @@ footer {
 
 .foot-wrap .address .copy {
     font-weight: 200;
+}
+
+b,
+strong {
+    font-weight: bold;
 }
 
 @media (max-width:480px) {
